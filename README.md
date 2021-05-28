@@ -16,20 +16,20 @@ Fashion MNIST Dataset. You can load the dataset from tf.keras directly as shown 
 fashion_mnist = tf.keras.datasets.fashion_mnist
 (train_data, train_labels), (test_data, test_labels) =fashion_mnist.load_data()
 ```
-The images are 28x28 NumPy arrays, with pixel values ranging from 0 to 255.
+The images are **28x28 NumPy arrays**, with pixel values ranging from 0 to 255.
 
-Class Labels: Each training and test example is assigned to one of the following labels:
+**Class Labels:** Each training and test example is assigned to one of the following labels:
 
-0 T-shirt/top
-1 Trouser
-2 Pullover
-3 Dress
-4 Coat
-5 Sandal
-6 Shirt
-7 Sneaker
-8 Bag
-9 Ankle boot
+###### 0 T-shirt/top
+###### 1 Trouser
+###### 2 Pullover
+###### 3 Dress
+###### 4 Coat
+###### 5 Sandal
+###### 6 Shirt
+###### 7 Sneaker
+###### 8 Bag
+###### 9 Ankle boot
 ### Task 1 :
 
 Create a recurrent neural network with a tensorflow.compat.v1.nn.rnn_cell.RNNCell as a basic component. Use tensorflow.compat.v1.nn.static_rnn to create the RNN. Train it end to end.
